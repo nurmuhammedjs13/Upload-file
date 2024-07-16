@@ -1,0 +1,93 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title {
+    padding: 20px 168px;
+    background: rgb(146, 146, 146);
+}
+
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.image {
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    transition: 0.3s;
+    // &:hover {
+    //     padding: 6px;
+    //     border-radius: 16px;
+    // }
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.input {
+    width: 40%;
+    border: none;
+    border-radius: 10px;
+    background: rgb(146, 146, 146);
+    color: black;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.button {
+    border: none;
+    height: 42px;
+    border-radius: 10px;
+    background: rgb(146, 146, 146);
+    color: black;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.content_text {
+    padding: 20px 168px;
+    background: rgb(146, 146, 146);
+}
+
+.imgBlock {
+    transition: 0.3s;
+    padding: 10px;
+
+    &:hover {
+        padding: 6px;
+        border-radius: 16px;
+    }
+}
+
+.imgLabel {
+    color: white;
+    font-size: 15px;
+}
+
+.imgValue {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    font-size: 13px;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+}
